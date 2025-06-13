@@ -1,83 +1,76 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <title>社區介紹</title>
-    <style>
-        body {
-            font-family: "微軟正黑體", sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .header h1 {
-            color: #2c3e50;
-        }
-        .columns {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-        }
-        .column {
-            flex: 1;
-            background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        .column:hover {
-            transform: translateY(-5px);
-        }
-        .column h2 {
-            color: #2980b9;
-            margin-top: 0;
-        }
-        .column p {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #444;
-        }
-
-        @media (max-width: 768px) {
-            .columns {
-                flex-direction: column;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>歡迎來到青松社區</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <h1>歡迎來到青松社區</h1>
+    <nav>
+      <a href="index.html">首頁</a> |
+      <a href="about.html">關於社區</a> |
+      <a href="facilities.html">設施介紹</a> |
+      <a href="location.html">交通地點</a> |
+      <a href="contact.html">聯絡我們</a>
+    </nav>
+  </header>
 
-<div class="container">
-    <div class="header">
-        <h1>歡迎來到我們的社區</h1>
-        <p>一個結合自然、便利與社區溫度的理想居所。</p>
-    </div>
+  <main>
+    <section>
+      <h2>社區簡介</h2>
+      <p>青松社區是一個綠意盎然、安全、友善的住宅社區，擁有完善的設施與便利的交通，是家庭與長者居住的理想選擇。</p>
+    </section>
+    <section>
+      <h2>最新消息</h2>
+      <ul>
+        <li>🌳 6月15日 社區綠化志工活動開始報名！</li>
+        <li>🏊 6月20日 游泳池夏季開放時間調整</li>
+      </ul>
+    </section>
+  </main>
 
-    <div class="columns">
-        <div class="column">
-            <h2>自然環境</h2>
-            <p>社區周圍擁有豐富綠地與步道，中庭花園與生態池提供放鬆的生活環境，是家人與鄰里共享的綠色空間。</p>
-        </div>
-        <div class="column">
-            <h2>交通便利</h2>
-            <p>鄰近捷運站、公車站與主要幹道，通勤與出行相當便利。社區門口也設有 YouBike 租借站與停車場。</p>
-        </div>
-        <div class="column">
-            <h2>完善設施</h2>
-            <p>設有健身房、閱覽室、兒童遊戲區與多功能活動中心，滿足住戶多元需求，促進社區互動與交流。</p>
-        </div>
-    </div>
-</div>
-
+  <footer>
+    <p>© 2025 青松社區 | 聯絡信箱：info@qingsong-community.tw</p>
+  </footer>
 </body>
 </html>
+🎨 CSS 樣式範例 css/style.css
+css
+複製
+編輯
+body {
+  font-family: "微軟正黑體", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
