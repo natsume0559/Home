@@ -8,12 +8,14 @@
 <body>
   <header>
     <h1>歡迎來到青松社區</h1>
-    <nav>
-      <a href="index.html">首頁</a> |
-      <a href="about.html">關於社區</a> |
-      <a href="facilities.html">設施介紹</a> |
-      <a href="location.html">交通地點</a> |
-      <a href="contact.html">聯絡我們</a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於社區</a></li>
+        <li><a href="facilities.html">設施介紹</a></li>
+        <li><a href="location.html">交通地點</a></li>
+        <li><a href="contact.html">聯絡我們</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -22,55 +24,17 @@
       <h2>社區簡介</h2>
       <p>青松社區是一個綠意盎然、安全、友善的住宅社區，擁有完善的設施與便利的交通，是家庭與長者居住的理想選擇。</p>
     </section>
-    <section>
-      <h2>最新消息</h2>
-      <ul>
-        <li>🌳 6月15日 社區綠化志工活動開始報名！</li>
-        <li>🏊 6月20日 游泳池夏季開放時間調整</li>
-      </ul>
-    </section>
+    
+   <section>
+  <h2>社區簡介</h2>
+  <img src="images/community.jpg" alt="青松社區環境" class="intro-photo">
+  <p>青松社區是一個綠意盎然、安全、友善的住宅社區，擁有完善的設施與便利的交通，是家庭與長者居住的理想選擇。</p>
+</section>
+
   </main>
 
   <footer>
-    <p>© 2025 青松社區 | 聯絡信箱：info@qingsong-community.tw</p>
+    <p>&copy; 2025 青松社區 | 聯絡信箱：<a href="mailto:info@qingsong-community.tw">info@qingsong-community.tw</a></p>
   </footer>
 </body>
 </html>
-🎨 CSS 樣式範例 css/style.css
-css
-複製
-編輯
-body {
-  font-family: "微軟正黑體", sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 1em;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-main {
-  padding: 2em;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
